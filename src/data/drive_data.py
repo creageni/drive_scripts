@@ -4,7 +4,7 @@ from pydrive.drive import GoogleDrive
 from google.colab import auth
 from oauth2client.client import GoogleCredentials
 
-def get_all_csv_as_df(folder_key):
+def get_all_csv_as_df_2(folder_key):
 
   # 1. Authenticate and create the PyDrive client.
   auth.authenticate_user()
