@@ -38,3 +38,5 @@ def get_all_csv_as_df_2(folder_key):
       csv_df_list.append(pd.read_csv(f))
 
   return csv_df_list
+
+# Gracias Totales
